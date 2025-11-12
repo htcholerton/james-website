@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hall of Shame</title>
+  <style>
+    body {
+      background-color: #fff0f6;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #9d0208;
+      font-size: 2.5rem;
+    }
+    .gallery img {
+      max-width: 300px;
+      margin: 1rem;
+      border: 4px dashed #9d0208;
+      border-radius: 12px;
+    }
+    .back-link {
+      margin-top: 2rem;
+      display: inline-block;
+      font-size: 1rem;
+      color: #6c757d;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>James Oakes: Hall of Shame</h1>
+  <div class="gallery">
+    <img src="james1.jpg" alt="James caught mid-cringe">
+    <img src="james2.jpg" alt="James in his natural habitat">
+    <img src="james3.jpg" alt="James regretting everything">
+    <!-- Add more images as needed -->
+  </div>
+  <a class="back-link" href="index.html">← Back to Home</a>
+</body>
+</html>
