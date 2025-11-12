@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Reviews</title>
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #0077b6;
+      font-size: 2.5rem;
+    }
+    .review {
+      background-color: #caf0f8;
+      padding: 1rem;
+      margin: 1rem auto;
+      max-width: 600px;
+      border-radius: 10px;
+      font-style: italic;
+      border: 2px solid #0077b6;
+    }
+    .back-link {
+      margin-top: 2rem;
+      display: inline-block;
+      font-size: 1rem;
+      color: #6c757d;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Anonymous Reviews of James Oakes</h1>
+  <div class="review">"He once tried to charge his sandwich. With a USB cable." – Anonymous</div>
+  <div class="review">"James thought 'VPN' was a new energy drink." – Anonymous</div>
+  <div class="review">"He asked if HTML was a type of STD." – Anonymous</div>
+  <!-- Add more reviews as needed -->
+  <a class="back-link" href="index.html">← Back to Home</a>
+</body>
+</html>
