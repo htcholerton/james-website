@@ -1,9 +1,8 @@
-Absolutely, Harry. Here's a simple, silly HTML homepage you can drop into your GitHub repo as index.html. It’s lightweight, crude, and perfect for roasting James:
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>James Is a Menace</title>
+  <title>Ode to James Oakes</title>
   <style>
     body {
       background-color: #fdf0d5;
@@ -35,6 +34,23 @@ Absolutely, Harry. Here's a simple, silly HTML homepage you can drop into your G
       border-radius: 8px;
       font-style: italic;
     }
+    .button-container {
+      margin: 2rem;
+    }
+    .nav-button {
+      background-color: #d62828;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .nav-button:hover {
+      background-color: #a4161a;
+    }
     footer {
       margin-top: 3rem;
       font-size: 0.9rem;
@@ -43,8 +59,13 @@ Absolutely, Harry. Here's a simple, silly HTML homepage you can drop into your G
   </style>
 </head>
 <body>
-  <h1>James Is a Menace</h1>
+  <h1>Ode to James Oakes</h1>
   <h2>A public service announcement</h2>
+
+  <div class="button-container">
+    <button class="nav-button" onclick="location.href='hall-of-shame.html'">Hall of Shame</button>
+    <button class="nav-button" onclick="location.href='customer-reviews.html'">Customer Reviews</button>
+  </div>
 
   <img src="james1.jpg" alt="James looking suspicious">
   <img src="james2.jpg" alt="James mid-cringe">
@@ -59,13 +80,3 @@ Absolutely, Harry. Here's a simple, silly HTML homepage you can drop into your G
   </footer>
 </body>
 </html>
-
-
-
-🧨 What You Do Next
-- Save this as index.html
-- Upload it to your GitHub repo
-- Add your cursed images of James (named james1.jpg, james2.jpg, etc.)
-- Enable GitHub Pages in repo settings
-- Point your Hostinger domain to GitHub Pages (I can help with DNS setup)
-Want to add a “James Quiz” or a button that plays fart sounds when clicked? I’m ready.
